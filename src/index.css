@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ,html{
+    height: 100%;
+    width: 100%;
+}
+
+
+@font-face {
+    font-family: "Nyght";
+    src: url("./Fonts/nyght-serif-main/nyght-serif-main/fonts/TTF/NyghtSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Nyght-Italic";
+    src: url("./Fonts/nyght-serif-main/nyght-serif-main/fonts/TTF/NyghtSerif-RegularItalic.ttf");
+}
+
+@font-face {
+    font-family: "Retro";
+    src: url("./Fonts/riesling/riesling.ttf");
+}

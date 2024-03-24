@@ -1,0 +1,47 @@
+.max-screen-width{
+    width: 100vw;
+}
+
+.common-side-padding{
+    padding: 0 9%;
+}
+
+.common-padding{
+    padding: 8% 7%;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.subheading{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.Nyght{
+    font-family: "Nyght";
+}
+
+.NyghtItalic{
+    font-family: "Nyght-Italic";
+}
+
+.logoname{
+    font-size: 34px;
+    font-family: Retro;
+    font-weight: 800;
+}
+
+.color{
+    color: rgb(242, 234, 234);
+}

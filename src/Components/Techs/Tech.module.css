@@ -1,0 +1,23 @@
+.ImageCard img{
+    top: 3%;
+    left:3%
+}
+
+.FadeBanner{
+    transform: translateY(100%);
+    transition: all 0.5s;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    writing-mode: sideways-lr;
+}
+
+.ImageCard:hover .FadeBanner{
+    transform: translateY(0);
+}
