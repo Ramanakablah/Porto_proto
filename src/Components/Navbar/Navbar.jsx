@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="logoname">
           <Link to="/">R.</Link>
         </div>
-        <div className="flex flex-1 items-center justify-end gap-8">
+        <div className="flex flex-1 items-center justify-end gap-2 md:gap-8">
           <Link to="/">
             <button className="border rounded-full cursor-pointer py-1 px-3 hover:bg-lightgray">
               Work

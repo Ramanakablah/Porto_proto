@@ -1,4 +1,4 @@
-import Meright from "./assets/Images/Melight.png"
+import Meright from "./assets/Images/Melightb.png"
 import tenPointimage from "./assets/Images/10Pointai.png"
 import Denims from "./assets/Images/Denims.png"
 import Rocket from "./assets/Images/Rocket.jpg"
@@ -25,6 +25,10 @@ import cors from "./assets/Images/CORS.jpg"
 import Bundlers from "./assets/Images/Bundlers.jpg"
 import replication from "./assets/Images/Replication.jpg"
 import yourcoaching from "./assets/Images/Yourcoaching.png"
+import middenims from "./assets/Images/midDenims.png"
+import middapple from "./assets/Images/midapple.png"
+import midtenpoint from "./assets/Images/midtenpointai.png"
+import midyourcoaching from "./assets/Images/midyourcoaching.png"
 
 export default Meright
 export let RocketImg = Rocket
@@ -53,3 +57,7 @@ export let replicationImg = replication
 export let bundlersImg = Bundlers
 export let corsImage = cors
 export let YourcoachingImg = yourcoaching
+export let midappleImage = middapple
+export let midyourcoachingImage = midyourcoaching
+export let middenimsimage = middenims
+export let midtenpointimage = midtenpoint

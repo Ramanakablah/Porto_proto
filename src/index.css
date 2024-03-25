@@ -25,6 +25,18 @@ body ,html{
 }
 
 @font-face {
+    font-family: "Rosarivo";
+    src: url("./Fonts/rosarivo/Rosarivo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Rosarivo-Italic";
+    src: url("./Fonts/rosarivo/Rosarivo-Italic.ttf");
+}
+
+@font-face {
     font-family: "Retro";
     src: url("./Fonts/riesling/riesling.ttf");
 }
+
+

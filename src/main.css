@@ -28,12 +28,14 @@
     letter-spacing: 6px;
 }
 
-.Nyght{
-    font-family: "Nyght";
+.Fontfam{
+    /* font-family: "Nyght"; */
+    font-family: "Rosarivo";
 }
 
-.NyghtItalic{
+.FontItalic{
     font-family: "Nyght-Italic";
+    /* font-family: "Rosarico-Italic"; */
 }
 
 .logoname{
@@ -44,4 +46,79 @@
 
 .color{
     color: rgb(242, 234, 234);
+}
+
+
+@media screen and (max-width: 1024px){
+    .common-padding{
+        padding: 5% 6%;
+    }
+    
+    .common-side-padding{
+        padding: 0 6%;
+    }
+    
+    .heading{
+        font-size: 35px;
+    }
+    
+    .subheading{
+        font-size: 28px;
+    }
+    
+    .name{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .common-padding{
+        padding: 5% 6%;
+    }
+    
+    .common-side-padding{
+        padding: 0 6%;
+    }
+    
+    .heading{
+        font-size: 30px;
+    }
+    
+    .subheading{
+        font-size: 24px;
+    }
+    
+    .name{
+        font-size: 40px;
+    }
+    
+    .logoname{
+        font-size: 30px;
+    } 
+}
+
+@media screen and (max-width: 450px){
+    .common-padding{
+        padding: 10% 3%;
+    }
+    
+    .common-side-padding{
+        padding: 0 3%;
+    }
+    .heading{
+        font-size: 25px;
+    }
+
+    .subheading{
+        font-size: 16px;
+    }
+    
+    .name{
+        font-size: 35px;
+    }
+    
+    .logoname{
+        font-size: 30px;
+    }
+    
 }

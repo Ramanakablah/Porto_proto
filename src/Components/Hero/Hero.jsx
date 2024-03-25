@@ -5,14 +5,13 @@ import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-
+import style from "./Hero.module.css"
 const Hero = () => {
 
 useGSAP(()=>{
   gsap.from(".Icon",{
     x:-30,
     opacity:0,
-    duration:2,
     stagger:{
       amount:0.6
     }, 
@@ -21,15 +20,14 @@ useGSAP(()=>{
   gsap.from(".text_fadeIn",{
     opacity:0,
     y:30,
-    duration:2,
     stagger:0.6
   })
 },[])
 
   return (
     <section>
-      <div className="common-side-padding flex h-[90dvh]">
-        <div className="flex-1 flex items-start flex-col justify-center NyghtItalic">
+      <div className={`${style.Hero} common-side-padding py-20 flex min-h-[90dvh]`}>
+        <div className="flex-1 flex items-start flex-col justify-center FontItalic">
           <p className="heading text_fadeIn">Hi I'm</p>
           <p className="name text_fadeIn">RAMAN</p>
           <p className="heading text_fadeIn">A Full-Stack SDE</p>
